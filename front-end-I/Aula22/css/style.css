@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: medium;
+    font-weight: bold;
+  }
+  
+  /* mobile first - container flex vertical */
+  
+  .container {
+    color: #A0ACAD;
+    /* display: flex; */
+  
+  }
+  
+  header {
+    background-color: #33032f;
+    padding: 10px;
+  }
+  
+  aside {
+    background-color: #531253;
+    padding: 10px;
+  }
+  
+  main {
+    background-color: #A0ACAD;
+    color: #33032f;
+    padding: 10px;
+    flex: 1; /* abreviação grow */
+  }
+  
+  div {
+    padding: 10px;
+  }
+  
+  footer {
+    background-color: #33032F;
+    padding: 10px;
+  }
+  
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* estilos a serem aplicados para telas com no mínimo 401px*/
+  @media only screen and (min-width: 900px){
+ .container{
+    display: grid;
+    background-position: right;
+    grid-template-columns: 150px 1fr;
+    grid-template-areas:
+      'header header'
+      'links main'
+      'footer footer';
+ }
+}
+
+@media only screen and (min-width: 1024px){
+    .container{
+       display: grid;
+       background-position: right;
+       grid-template-columns: 150px 1fr;
+       grid-template-areas:
+         'header header'
+         'links main'
+         'footer footer';
+    }
+   }

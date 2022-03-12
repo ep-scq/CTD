@@ -1,0 +1,2 @@
+Sofware: é todo programa rodado em um computador, celular ou dispositivo que permita ao mesmo executar suas funções. exemplos: sistemas operacionais
+Hardware: é a parte física de um computador, é formado pelos componentes eletrônicos

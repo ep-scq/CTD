@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 1000px;
+    background-color: black;
+    font-family:sans-serif;
+    margin: 72px, 0;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.videos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0, auto;
+    gap: 24px;
+}
+
+.imagemvideo {
+  width: 30%;
+  height: 40vh;
+  padding: 5px;
+  margin: 10px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  flex-grow: 1;
+
+}
+
+.imagemvideo:hover {
+    transition: all ease-in-out 0.3s;
+    transform: scale(1.01);
+}
+
+.titulovideo {
+    color: whitesmoke;
+}
+
+.visualizacoes {
+    color: red;
+}

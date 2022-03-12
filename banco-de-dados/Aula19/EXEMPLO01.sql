@@ -1,0 +1,16 @@
+USE Projeto_Spotify;
+
+-- PROCEDURE SEM PARAMETRO NENHUM QUE ME RETORNA A DATA ATUAL ESCRIT
+DELIMITER $$
+	CREATE PROCEDURE SP_GET_DATE()
+    BEGIN
+		SELECT
+			CONCAT(
+				DAYNAME(CURRENT_DATE()), ', ',
+                DAY(CURRENT_DATE()), ', ',
+                MONTHNAME(CURRENT_DATE()), ', ',
+                YEAR(CURRENT_DATE())
+            ) AS 'CURRENT DATE';
+	END $$
+
+CALL SP_GET_DATE();

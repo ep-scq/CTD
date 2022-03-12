@@ -1,0 +1,61 @@
+#bola {
+    max-width: 150px;
+    animation: bolarolando 5s infinite;
+}
+
+#icone {
+    max-width: 150px;
+    animation: instaicone 5s infinite;
+    margin: 0 auto;
+    padding-left: 10%;
+
+}
+
+@keyframes bolarolando {
+
+    0% {
+        opacity: 0%;
+        transform: translateX(0)
+    }
+
+    50% {
+        opacity: 100%;
+        transform: translateX(200px) rotate()
+    }
+
+    100% {
+        opacity: 0%;
+        transform: translateX(400px) rotate(360deg)
+    }
+}
+
+@keyframes instaicone {
+
+    0% {
+        opacity: 0%;
+        transform: scale(20%)
+    }
+
+    50% {
+        opacity: 100%;
+        transform: translateY(0px) rotate(deg)
+    }
+
+    100% {
+        opacity: 0%;
+        transform: translateY(1px) rotate(360deg)
+    }
+}
+
+
+button {
+    border-radius: 20px;
+    transition: all ease-in-out 1s;
+    padding: 10px;
+    color: blue;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: aqua;
+}

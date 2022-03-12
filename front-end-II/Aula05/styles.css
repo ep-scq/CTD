@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main-menu {
+  background-color: brown;
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: -200px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.main-menu-opened {
+  left: 0;
+}
+/*# sourceMappingURL=styles.css.map */

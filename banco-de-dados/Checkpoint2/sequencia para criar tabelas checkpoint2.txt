@@ -1,0 +1,15 @@
+sequencia das tabelas a serem criadas
+
+1 - cidade ok
+
+2 - servico ok
+
+3 - produto ok
+
+4 - cliente ok
+
+5 - ordemservico ok
+
+6 - itemservico ok
+
+7 - itemproduto ok
