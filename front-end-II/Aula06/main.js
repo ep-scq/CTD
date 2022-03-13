@@ -49,9 +49,14 @@ let posts = [
         imagem: "./imagens/chita.jpg"
     },
     {
-        titulo: "A pantera negra",
-        texto: " A pantera negra é uma variação escura (melanismo) de várias espécies de felinos grandes, especialmente o leopardo (Panthera pardus) e a onça-pintada (Panthera onca). Mas deve-se ressaltar que não se trata de uma espécie nova, nem mesmo de uma subespécie, é simplesmente uma variação negra destes animais.",
-        imagem: "./imagens/pantera-negra.jpg"
+        titulo: "A onça-pintada",
+        texto: "A onça-pintada (português brasileiro) ou jaguar (português europeu) (nome científico: Panthera onca), também conhecida como onça-preta (no caso dos indivíduos melânicos), é uma espécie de mamífero carnívoro da família dos felídeos (Felidae) encontrada nas Américas. É o terceiro maior felino do mundo, após o tigre e o leão, e o maior do continente americano. Apesar da semelhança com o leopardo (Panthera pardus), a onça-pintada é evolutivamente mais próxima do leão (Panthera leo).",
+        imagem: "./imagens/onça-pintada.jpg"
+    },
+    {
+        titulo: "A jaguatirica",
+        texto: "A jaguatirica ou ocelote é um mamífero carnívoro da família dos felídeos e gênero Leopardus. São reconhecidas 10 subespécies, e o gato-maracajá é a espécie mais próxima da jaguatirica. Ocorre desde o sul dos Estados Unidos até o norte da Argentina, mas já foi extinta em algumas regiões de sua distribuição geográfica.",
+        imagem: "./imagens/jaguatirica.jpg"
     },
 ]
 
