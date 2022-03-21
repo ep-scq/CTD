@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Formulário de ajuda</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1>Formulário de ajuda</h1>
+
+    <span id="mensagemSucesso">Mensagem enviada com sucesso!</span>
+
+    <form action="" method="post">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="usuario_nome" />
+            <span id="ajudaNome">Digite seu nome completo.</span>
+        </div>
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="usuario_email" />
+            <span id="ajudaEmail">Digite um e-mail válido.</span>
+        </div>
+        <div>
+            <label for="msg">Mensagem:</label>
+            <textarea id="msg" name="usuario_msg"></textarea>
+            <span id="ajudaMensagem">Digite sua dúvida com clareza.</span>
+        </div>
+
+        <div class="button">
+            <button type="submit" id="button">Enviar</button>
+            <button type="reset">Limpar</button>
+        </div>
+    </form>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
