@@ -1,0 +1,31 @@
+* {
+
+    outline: none;
+
+}
+
+input {
+
+    border: 1px solid black;
+
+}
+
+.controlador small {
+
+    color: red;
+    display: none;
+    font-size: 12px;
+
+}
+
+.controlador.erro input {
+
+    border-color: red;
+
+}
+
+.controlador.erro small {
+
+    display: block;
+
+}
