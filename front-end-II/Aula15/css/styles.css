@@ -23,13 +23,24 @@ h1{
   margin: 20px 0;
 }
 
+
 .card{
+  text-align: center;
   background-color: white;
   border-radius: 20px;
   margin: 0 auto;
   height: 200px;
   width: 50%;
   max-width: 400px;
+}
+
+img {
+  margin-top: 10px;
+  border-radius: 20px;
+}
+
+.nome {
+  padding: 5px;
 }
 
 .btnContainer{

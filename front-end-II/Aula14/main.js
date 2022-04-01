@@ -7,15 +7,15 @@ botaoSubmitRef.addEventListener('click', event => {
 
     //    console.log(inputCepRef.value)
 
-    fetch(`https://viacep.com.br/ws/${inputCepRef.value}/json/`)
+    let apiCep = fetch(`https://viacep.com.br/ws/${inputCepRef.value}/json/`)
         .then(
             response => {
                 console.log(response)
                 response.json()
                     .then(
                         data => {
-                            inputRuaRef.value = data.logradouro
                             console.log(data)
+                            consulta(data)
                         }
                     )
             }
