@@ -1,0 +1,32 @@
+1657705269127	geckodriver	INFO	Listening on 127.0.0.1:61998
+1657705272229	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61999" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ELISSA~1\\AppData\\Local\\Temp\\rust_mozprofileeo4iBZ"
+1657705273205	Marionette	INFO	Marionette enabled
+1657705273212	Marionette	INFO	Listening on port 62008
+WebDriver BiDi listening on ws://localhost:61999
+Read port: 62008
+1657705273490	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ELISSA~1\\AppData\\Local\\Temp\\rust_mozprofileeo4iBZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61999/devtools/browser/35618092-9d5f-423a-b05e-5a53a805b22c
+1657705299216	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1657705301292	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1657705303400	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1657705304383	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: https://www.hurb.com/br/pay/checkout/62ce935a5f6f1108004bfe4a line 504 > injectedScript, line 1: ReferenceError: product is not defined
+1657705326777	Marionette	INFO	Stopped listening on port 62008
+[Parent 8324, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

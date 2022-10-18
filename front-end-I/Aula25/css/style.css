@@ -1,0 +1,15 @@
+.navbar-brown {
+    background-color: brown;
+  }
+  
+  .navbar-brown a {
+    color: white
+  }
+  
+  .navbar {
+    height: 15vh;
+  }
+  
+  .banner {
+    height: 85vh;
+  }

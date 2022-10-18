@@ -1,0 +1,22 @@
+1657696859592	geckodriver	INFO	Listening on 127.0.0.1:55919
+1657696862708	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "55920" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ELISSA~1\\AppData\\Local\\Temp\\rust_mozprofileM2CaQt"
+1657696863234	Marionette	INFO	Marionette enabled
+1657696863240	Marionette	INFO	Listening on port 55930
+WebDriver BiDi listening on ws://localhost:55920
+Read port: 55930
+1657696863476	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ELISSA~1\\AppData\\Local\\Temp\\rust_mozprofileM2CaQt\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:55920/devtools/browser/cb6dca70-861d-47e7-ac59-f9d5a9feb2a5
+1657696889796	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1657696894431	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+JavaScript error: https://www.hurb.com/br/pay/checkout/62ce72815f6f1108004bfad0 line 504 > injectedScript, line 1: ReferenceError: product is not defined
+1657696907414	Marionette	INFO	Stopped listening on port 55930
+[Parent 15204, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

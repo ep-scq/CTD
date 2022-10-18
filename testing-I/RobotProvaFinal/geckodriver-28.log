@@ -1,0 +1,13 @@
+1657689296823	geckodriver	INFO	Listening on 127.0.0.1:51117
+1657689299916	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51118" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ELISSA~1\\AppData\\Local\\Temp\\rust_mozprofileeLILez"
+1657689300615	Marionette	INFO	Marionette enabled
+1657689300621	Marionette	INFO	Listening on port 51127
+WebDriver BiDi listening on ws://localhost:51118
+Read port: 51127
+1657689300856	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ELISSA~1\\AppData\\Local\\Temp\\rust_mozprofileeLILez\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51118/devtools/browser/3bc8d573-0f8f-4de0-bd86-a558e69032cf
+1657689308122	Marionette	INFO	Stopped listening on port 51127
+[Parent 17432, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1105: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\ELISSA~1\AppData\Local\Temp\rust_mozprofileeLILez\protections.sqlite
+[Parent 17432, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

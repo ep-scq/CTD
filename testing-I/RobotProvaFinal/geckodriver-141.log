@@ -1,0 +1,17 @@
+1657754910617	geckodriver	INFO	Listening on 127.0.0.1:65061
+1657754913632	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "65062" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ELISSA~1\\AppData\\Local\\Temp\\rust_mozprofileOgcOhK"
+1657754914140	Marionette	INFO	Marionette enabled
+1657754914146	Marionette	INFO	Listening on port 65073
+WebDriver BiDi listening on ws://localhost:65062
+Read port: 65073
+1657754914382	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ELISSA~1\\AppData\\Local\\Temp\\rust_mozprofileOgcOhK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:65062/devtools/browser/d48aee68-663f-407a-b0b3-6f21f8bfdeaa
+1657754939837	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+1657754946485	Marionette	INFO	Stopped listening on port 65073
+[Parent 13984, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 13984, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

@@ -1,0 +1,25 @@
+1657688201584	geckodriver	INFO	Listening on 127.0.0.1:49191
+1657688204666	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49192" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ELISSA~1\\AppData\\Local\\Temp\\rust_mozprofileDd6P1G"
+1657688205182	Marionette	INFO	Marionette enabled
+1657688205190	Marionette	INFO	Listening on port 49202
+WebDriver BiDi listening on ws://localhost:49192
+Read port: 49202
+1657688205428	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ELISSA~1\\AppData\\Local\\Temp\\rust_mozprofileDd6P1G\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:49192/devtools/browser/b440705a-28db-412f-9589-2c2706576417
+1657688216630	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:234:19
+TimedPromise@chrome://remote/content/marionette/sync.js:219:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+xhrSendProcessor@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=YTqLZw56JXDmfco_IkCEjqNwDxhHda2a5MjIgOiZ4ZXX2IvzeKNWLAUcPhG4hSS7:3347:24
+window.XMLHttpRequest.prototype.send@https://ff.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=YTqLZw56JXDmfco_IkCEjqNwDxhHda2a5MjIgOiZ4ZXX2IvzeKNWLAUcPhG4hSS7:3355:33
+5484/t.fileExists@https://cdn.pn.vg/push/ilabspush.min.js:1:143733
+_init@https://cdn.pn.vg/push/ilabspush.min.js:1:155351
+init@https://cdn.pn.vg/push/ilabspush.min.js:1:161947
+processPushes/<@https://cdn.pn.vg/push/ilabspush.min.js:1:185538
+processPushes@https://cdn.pn.vg/push/ilabspush.min.js:1:184800
+@https://cdn.pn.vg/push/ilabspush.min.js:1:187058
+@https://cdn.pn.vg/push/ilabspush.min.js:1:187241
+@https://cdn.pn.vg/push/ilabspush.min.js:1:187245
+1657688232341	Marionette	INFO	Stopped listening on port 49202

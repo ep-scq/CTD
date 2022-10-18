@@ -1,0 +1,68 @@
+body {
+    height: 800px;
+  }
+  
+  form {
+    padding: 20px 0;
+  }
+  
+img{
+  margin: 0 auto;
+  background-color: rgb(201, 238, 243);
+}
+
+h1 , h3{
+  color: blue;
+}
+
+  input:focus {
+    background-color: rgb(168, 220, 245);
+  }
+  
+  a {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  a:link  {
+    color: rgb(28, 96, 243);
+  }
+  
+  a:visited {
+    color: rgb(119, 80, 43);
+  }
+  
+  a:hover  {
+    color: rgb(69, 12, 202);
+  }
+  
+  a:active {
+    color:rgb(7, 125, 133);
+  }
+  
+  p:target {
+    background-color: rgb(192, 191, 182);
+  }
+  
+  #p3::first-letter {
+    color:blue;
+    font-size: 30px;
+  }
+  
+  #p3::after{
+    content: "Todos os direitos reservados.";
+    color:blue;
+    font-style: italic;
+  }
+  
+  button {
+    background-color: blue;
+    color: white;
+  }
+  
+  button:disabled {
+    background-color: rgb(207, 203, 203);
+    color: white;
+    margin: 10px;
+  }
+

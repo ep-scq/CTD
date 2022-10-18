@@ -1,0 +1,17 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "calc.js",
+  "scripts": {
+    "test": "jest --collect-coverage"
+  },
+  "author": "Elissandro",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  },
+  "dependencies": {
+    "Jest": "npm:jest@^28.1.1"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "aula15a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "util.test.js",
+  "scripts": {
+    "test": "jest --collect-coverage"
+  },
+  "author": "Elissandro",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}

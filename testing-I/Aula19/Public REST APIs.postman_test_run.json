@@ -1,0 +1,55 @@
+{
+	"id": "d4d74798-88c1-45de-97ba-963916852eb2",
+	"name": "Public REST APIs",
+	"timestamp": "2022-06-29T23:48:30.808Z",
+	"collection_id": "21601506-6f7b47eb-69da-46ef-803f-61d17a927021",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 2,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "d61c0e87-223c-48ca-96cc-e630265a7211",
+			"name": "Pokemon Search",
+			"url": "https://pokeapi.co/api/v2/pokemon/ditto/",
+			"time": 171,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Retorno do código de Status é 200": true,
+				"Body contenha o nome imposter": true
+			},
+			"testPassFailCounts": {
+				"Retorno do código de Status é 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Body contenha o nome imposter": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				171
+			],
+			"allTests": [
+				{
+					"Retorno do código de Status é 200": true,
+					"Body contenha o nome imposter": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 171,
+	"collection": {
+		"requests": [
+			{
+				"id": "d61c0e87-223c-48ca-96cc-e630265a7211",
+				"method": "GET"
+			}
+		]
+	}
+}

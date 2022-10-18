@@ -1,0 +1,44 @@
+Codigo de estados pelo enumerador:
+public enum PagamentoEnum {
+
+    PROCESSANDO("Processando pagamento") {
+        @Override
+        public PagamentoEnum proximo(PagamentoEnum pagamentoEnum) throws IllegalAccessException {
+            if (PagamentoEnum.PAGAMENTO_CONCLUIDO.equals(pagamentoEnum)) {
+                throw new IllegalAccessException();
+            }
+            return pagamentoEnum;
+        }
+    },
+
+    DEPOSITO_REALIZADO("Deposito realizado"){
+        @Override
+        public PagamentoEnum proximo(PagamentoEnum pagamentoEnum) throws IllegalAccessException {
+            if (pagamentoEnum == PagamentoEnum.PROCESSANDO) {
+                throw new IllegalAccessException();
+            }
+            return pagamentoEnum;
+        }
+    },
+
+    PAGAMENTO_CONCLUIDO("Concluido"){
+        @Override
+        public PagamentoEnum proximo(PagamentoEnum pagamentoEnum) throws IllegalAccessException {
+            if (pagamentoEnum == PagamentoEnum.PROCESSANDO || pagamentoEnum == DEPOSITO_REALIZADO) {
+                throw new IllegalAccessException();
+            }
+            return pagamentoEnum;
+        }
+    };
+
+    private final String nomeDoStatus;
+
+    public abstract PagamentoEnum proximo(PagamentoEnum pagamentoEnum) throws IllegalAccessException;
+    PagamentoEnum(String status) {
+        this.nomeDoStatus = status;
+    }
+
+    public String getNomeDoStatus() {
+        return nomeDoStatus;
+    }
+}
