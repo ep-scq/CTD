@@ -1,9 +1,15 @@
 .quarta-aula-component {
 
-    * {
+    h2 {
+        color: violet;
+    }
 
-        color: white;
+    h1 {
+        color: #8a2be2
+    }
 
+    p {
+        color: burlywood
     }
 
     .main-title {
@@ -24,7 +30,7 @@
             width: 424px;
             display: flex;
             flex-direction: column;
-            gap: 6px;
+            gap: 8px;
             background-color: #303030;
             padding: 12px;
             border-radius: 12px;

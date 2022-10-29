@@ -1,32 +1,34 @@
 import './style.scss'
-// import batataGif from './../../assets/images/batata.gif'
-
+import vimeoPlanos from './../../assets/images/vimeoplanos.png'
+import vimeoHeader from './../../assets/images/vimeoheaderentrada.png'
+import vimeoCarrossel from './../../assets/images/vimeocarrosselcomentarios.png'
+import vimeoInscricao from './../../assets/images/vimeocardinscricao.png'
 export function TerceiraAula() {
 
     const title = 'Teste'
     const components = [
 
-        { name: 'Component Card0', description0: 'teste0', image: 'http://pa1.narvii.com/6203/b19ab0278cb42d6c11e6ac6c3c4f2824dc593def_00.gif' },
+        { name: 'Card de Entrada', description: 'Vídeo de apresentação', image: 'https://i.vimeocdn.com/custom_asset/8bde48e510ec8c3c437a3a356c4d7ca0?w=1460&q=60' },
 
-        { name: 'Component Card1', description1: 'teste1', image: 'http://pa1.narvii.com/6203/b19ab0278cb42d6c11e6ac6c3c4f2824dc593def_00.gif' },
+        { name: 'Card de Planos', description: 'Opções de planos', image: vimeoPlanos },
 
-        { name: 'Component Card2', description2: 'teste2', image: 'http://pa1.narvii.com/6203/b19ab0278cb42d6c11e6ac6c3c4f2824dc593def_00.gif' },
+        { name: 'Header de Entrada', description: 'Header da página principal', image: vimeoHeader },
 
-        { name: 'Component Card3', description3: 'teste3', image: 'http://pa1.narvii.com/6203/b19ab0278cb42d6c11e6ac6c3c4f2824dc593def_00.gif' },
+        { name: 'Carrossel de Comentários', description: 'Comentários sobre o serviço', image: vimeoCarrossel },
         
-        { name: 'Component Card4', description4: 'teste4', image: 'http://pa1.narvii.com/6203/b19ab0278cb42d6c11e6ac6c3c4f2824dc593def_00.gif' }
+        { name: 'Janela pop-up de Inscrição', description: 'Janela de inscrição', image: vimeoInscricao }
     ]
 
     return (
         <main>
-            <h1>Lista de componentes encontrados em um sistema</h1>
+            <h1>Lista de componentes encontrados site Vimeo</h1>
             <ul>
                 {
                     components.map(component => (
                         <li>
-                            <img src={component.image} />
                             <h1>{component.name}</h1>
                             <p>{component.description}</p>
+                            <img src={component.image} />
                         </li>
                     ))
                 }

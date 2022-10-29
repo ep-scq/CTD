@@ -8,15 +8,15 @@ export function QuintaAula() {
     const componetsFinded = [
         {
             id: 1,
-            title: 'Vídeo Component',
+            title: 'Página do youtube',
             image: youtubeImage,
-            text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, adipisci.'
+            text: 'Print da página principal do site youtube.com'
         },
         {
             id: 2,
-            title: 'Input Component',
+            title: 'Gif da batata',
             image: batataGif,
-            text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus, adipisci.'
+            text: 'Gif animado de batatas dançando'
         }
     ]
 

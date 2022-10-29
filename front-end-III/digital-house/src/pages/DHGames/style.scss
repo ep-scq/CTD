@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+
+* {
+  font-family: 'Poppins', sans-serif;
+  li {
+    list-style-type: none;
+  }
+  .dh-games {
+    width: 100vw;
+    padding: 84px 320px;
+    background: #101010;
+    .wide-cards-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 12px;
+    }
+    .square-cards-list{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+  }
+}
+
+
+
+//   * {
+//     font-family: 'Poppins', sans-serif;
+    
+//     main {
+
+//       .halloween-games {
+//         margin-bottom: 82px;
+//         display: flex;
+//         .square-cards-list {
+          
+//           background-color: blue;
+               
+//         }
+//       }
+      
+//     }
+    
+//   }
+
+  
+
+//   h2 {
+//     margin-bottom: 24px;
+//     font-size: 2.25rem;
+//     color: #ffffffcc;
+//   }
+
+  
+
+  
+// }

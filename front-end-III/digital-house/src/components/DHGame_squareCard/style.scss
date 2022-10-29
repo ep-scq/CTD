@@ -1,0 +1,45 @@
+.square-card {
+    width: 360px;
+    border-radius: 12px;
+    background-color: #151515;
+  
+    .square-card-image {
+      width: 360px;
+      display: block;
+      border-radius: 12px 12px 0 0;
+    }
+  
+    .square-card-text {
+      // width: 75%;
+      // display: flex;
+      // justify-content: space-between;
+      // align-items: center;
+      padding: 24px;
+    }
+  
+    .square-card-lines {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .square-card-title {
+      font-size: 1.5rem;
+    }
+  
+    .square-card-categories {
+      color: #ffffff33;
+    }
+  
+    .old-price {
+      color: #ffffff33;
+      text-decoration: line-through;
+    }
+  
+    .new-price {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #ff7a00cc;
+    }
+  
+  }
