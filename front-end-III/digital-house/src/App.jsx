@@ -3,7 +3,8 @@
 //import { TerceiraAula } from './lessons/TerceiraAula'
 //import { QuartaAula } from './lessons/QuartaAula'
 //import { QuintaAula } from './lessons/QuintaAula'
-import { SetimaAula } from './lessons/SetimaAula'
+import { OitavaAula } from "./lessons/OitavaAula"
+//import { SetimaAula } from './lessons/SetimaAula'
 //import { DHGames } from './pages/DHGames'
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
      {/* <Login /> */}
      {/* <SegundaAula /> */}
      {/* <TerceiraAula /> */}
-    <SetimaAula />
+    <OitavaAula />
     </>
   )
 
