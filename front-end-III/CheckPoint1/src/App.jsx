@@ -45,7 +45,7 @@ function App() {
 
   return (
     <div className="App">
-     <h1>Cores Favoritas</h1>
+     <h1>Adicionar nova cor</h1>
      <form className="formCadastro"  onSubmit={event => adicionarCor(event)}>
 
             <input type="text" 
@@ -62,6 +62,7 @@ function App() {
 
             <button type="submit" className="btn btn-primary">Adicionar</button>
         </form>
+        <h2>Cores favoritas</h2>
     <small 
       className={classNames({
           [styles.erro]: erro
