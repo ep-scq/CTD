@@ -4,3 +4,5 @@ terraform.tfstate
 terraform.tfstate.backup
 terraform-aws.pub
 lock.info
+id_rsa
+id_rsa.pub
