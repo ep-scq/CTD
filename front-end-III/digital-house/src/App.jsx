@@ -4,9 +4,6 @@ import {
 } from "react-router-dom";
 import { MainLayout } from "./components/MainLayout";
 
-
-
-import { Login } from './pages/Login'
 import { SegundaAula } from './lessons/SegundaAula'
 import { TerceiraAula } from './lessons/TerceiraAula'
 import { QuartaAula } from './lessons/QuartaAula'
@@ -20,6 +17,7 @@ import { DecimaTerceiraAula } from "./lessons/DecimaTerceiraAula";
 import { ThemeProvider } from "./hooks/useTheme";
 import { Configurations } from "./pages/Configurations";
 import { ToDo } from "./pages/ToDo"
+import { LanguageProvider } from "./hooks/useLanguage";
 
 
 function App() {
@@ -46,11 +44,10 @@ function App() {
 
   return (
     <>
-      {/* <Login /> */}
-      {/* <SegundaAula /> */}
-      {/* <TerceiraAula /> */}
       <ThemeProvider>
-        <RouterProvider router={appRouter} />
+        <LanguageProvider>
+          <RouterProvider router={appRouter} />
+        </LanguageProvider>
       </ThemeProvider>
     </>
   )
